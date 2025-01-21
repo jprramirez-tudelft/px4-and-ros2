@@ -18,6 +18,12 @@ In particular, it needs to run a version that comes with the `microdds_agent` in
 For this first, clone the [PX4-Autopilot](https://github.com/PX4/PX4-Autopilot) repository.
 You can also choose which topics to communicate and which to keep quiet.
 In [`PX4-Autopilot/src/modules/uxrce_dds_client/dds_topics.yaml`](https://github.com/PX4/PX4-Autopilot/blob/main/src/modules/uxrce_dds_client/dds_topics.yaml) you choose the messages you need and comment out the rest. 
+
+**Prerequisites**
+Install prerequisites as they come. 
+
+Don't forget to export PYTHONPATH if encountering 'em' dependency issues relating to virtual environments.
+
 Finally you make the right version via
 
     make px4_fmu-v6c_default
