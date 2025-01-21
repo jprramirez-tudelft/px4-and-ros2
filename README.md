@@ -24,6 +24,8 @@ Install prerequisites as they come.
 
 Don't forget to export PYTHONPATH if encountering 'em' dependency issues relating to virtual environments.
 
+export PYTHONPATH=$PYTHONPATH:/home/<user>/miniconda3/envs/<env>/lib/python3.12/site-packages
+
 Finally you make the right version via
 
     make px4_fmu-v6c_default
