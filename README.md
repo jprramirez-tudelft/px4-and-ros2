@@ -10,6 +10,8 @@ The first step is to prepare the environment of each of the computers.
 
 ### Pixhawk 6c
 
+For Holybro X500, check [this](https://docs.px4.io/main/en/frames_multicopter/holybro_x500v2_pixhawk6c.html).
+
 The flight controller needs to be running the correct PX4 version. 
 In particular, it needs to run a version that comes with the `microdds_agent` installed.
 
