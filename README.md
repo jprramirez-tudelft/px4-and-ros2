@@ -43,6 +43,8 @@ The parameters are documented on the [parameter reference](https://docs.px4.io/m
 
 To take effect a restart is required. 
 We'll need to adjust some more parameters for various purposes but we'll get to that later.
+Check [this](https://docs.px4.io/main/en/middleware/uxrce_dds.html)
+
 Once restarted you can check if the `microdds_agent` is running by default by trying to start it again via
 
     uxrce_dds_client start -t serial -d /dev/ttyS3 -b 921600
