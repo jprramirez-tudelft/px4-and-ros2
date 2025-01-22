@@ -157,7 +157,8 @@ Find a summary below:
 
 **Don't forget to source**
     source /opt/ros/${ROS_DISTRO}/setup.sh
-    source /px4_uros_uxrce_dds_ws/install/setup.sh
+    source ~/px4_uros_uxrce_dds_ws/install/setup.sh
+    source ~/Fast-DDS/install/setup.bash
 
 ## How to listen to and publish Messages
 
