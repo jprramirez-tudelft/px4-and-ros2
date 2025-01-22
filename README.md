@@ -112,6 +112,8 @@ _Note_: The `ros2` base image is only available for `arm64` and _not_ `arm` arch
 
 Where `-it` opens it as an interactive container, `--privileged` gives it the required permissions, `--rm` is optional and indicates that the container is deleted after being stopped, `--net host` specifies the required network environment to let the ros2 communication work, and `-v` provides the required device permissions.  
 
+Problem with FastDDS: Installed it with [this.](https://fast-dds.docs.eprosima.com/en/latest/installation/sources/sources_linux.html#fast-dds-library-installation)
+
 ## Physically connecting the Hardware
 
 The next step is to physically connect the HW, i.e. the flight computer and the companion computer (in our case the Pixhawk 6c and the RaspberryPi 4B) both need to have access to power and need to be connected via a serial line. 
