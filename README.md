@@ -78,6 +78,8 @@ For this add the following lines to the bottom of `/boot/firmware/config.txt`:
 
 , and reboot the computer via `sudo reboot`.
 
+#### Communication on RPi with Docker
+
 We created a Docker file that can be easily run on any ARM-based architecture that will take care of the communication on the RaspberryPi side. 
 If you're interested in how we created the docker file, do read on, otherwise, feel free to skip this section and simply use the docker file as described in the software section. 
 
@@ -104,7 +106,7 @@ aka given the provided pre-compiled image:
 
 _Note_: The `ros2` base image is only available for `arm64` and _not_ `arm` architectures. Therefore the companion computer needs to run a 64 Bit based arch. E.g. an Ubuntu 22.04 server or Raspbian x64!
 
-After pulling this can be run with the following arguments:
+**After pulling this can be run with the following arguments:**
 
     docker run --rm --net=host --privileged antbre/px4-uros-agent serial --dev /dev/ttyAMA0  -b 921600
 
