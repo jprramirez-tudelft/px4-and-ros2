@@ -155,6 +155,10 @@ Find a summary below:
     - 6-pin RX (blue) to GPIO 8 (TX)
 - Find the RaspberryPi pinout e.g. [here](https://pinout.xyz/).
 
+**Don't forget to source**
+    source /opt/ros/${ROS_DISTRO}/setup.sh
+    source /px4_uros_uxrce_dds_ws/install/setup.sh
+
 ## How to listen to and publish Messages
 
 After doing all the above things you should be able to communicate between the RaspberryPi and the PX4. 
