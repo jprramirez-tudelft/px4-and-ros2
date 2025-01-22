@@ -4,6 +4,8 @@ We explain the process for a Pixhawk 6c and a RaspberryPi 4B but generally speak
 
 Let's get started!
 
+Also helpful [https://docs.px4.io/main/en/companion_computer/pixhawk_rpi.html](https://docs.px4.io/main/en/companion_computer/pixhawk_rpi.html)
+
 ## Prepare the Computers
 
 The first step is to prepare the environment of each of the computers.
