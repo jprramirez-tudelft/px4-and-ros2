@@ -173,6 +173,8 @@ To check the functionality do a
     
     ros2 topic list
 
+    sudo MicroXRCEAgent serial --dev /dev/serial0 -b 921600
+
 on any computer that is in the network and see if the `/fmu/...` topics show up. 
 Any ROS2 node that interacts on any of these topics needs to have the custom [PX4 ros messages](https://github.com/PX4/px4_msgs) sourced, i.e. the definitions need to be included in to ROS2 workspace and references as dependencies in the `CMakeList.txt` and `package.xml`. 
 
