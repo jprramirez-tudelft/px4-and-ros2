@@ -176,6 +176,8 @@ To check the functionality do a
 on any computer that is in the network and see if the `/fmu/...` topics show up. 
 Any ROS2 node that interacts on any of these topics needs to have the custom [PX4 ros messages](https://github.com/PX4/px4_msgs) sourced, i.e. the definitions need to be included in to ROS2 workspace and references as dependencies in the `CMakeList.txt` and `package.xml`. 
 
+**Use [this](https://docs.px4.io/main/en/ros2/user_guide.html) very helpful guide.**
+
 ### Listening Messages from ROS2
 
 Once the connection is established and the message definitions are available to a ROS2 node it can simply subscribe to the topics like any other ROS2 topic. 
