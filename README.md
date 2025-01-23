@@ -1,6 +1,6 @@
 # PX4 and ROS2
 
-[This is all you need] (https://docs.px4.io/main/en/companion_computer/pixhawk_rpi.html)
+[This is all you need](https://docs.px4.io/main/en/companion_computer/pixhawk_rpi.html)
 [Very Useful](https://docs.px4.io/main/en/ros2/user_guide)
 
 In this article, we want to provide a step-by-step tutorial on how to get PX4 working with ROS2 in hardware. 
